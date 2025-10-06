@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: john shipley
+# DATE: 10/6
+# BRIEF DESCRIPTION:  complement
 
 
 
@@ -15,7 +15,14 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+answer = str(input('would you like a compliment? '))
 
+if (answer == "yes"): 
+    print('You have wonderful eyes.')
+    print('Thank you for playing.')
+else:
+    print('No compliment for you!')
+    print('Thank you for playing.')
 
 
 
